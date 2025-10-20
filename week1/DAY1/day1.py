@@ -1,11 +1,11 @@
+"Module for date function"
 from datetime import datetime
 import psutil
-import time
 
 
 def hello():
     """Display a simple hello message to start the bootcamp"""
-    print(f"Hello, Bootcamp!")
+    print("Hello, Bootcamp!")
 
 
 def variables():
