@@ -42,7 +42,7 @@ def add_numbers(smallest: int, largest: int) -> int:
 def count_down(largest: int) -> None:
     """count from largest to 0"""
     counter = largest
-    while count >= 0:
+    while counter >= 0:
         print(counter, end=", ")
         counter -= 1
 
