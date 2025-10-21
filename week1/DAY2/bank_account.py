@@ -37,12 +37,13 @@ class BankAccount:
 
     def withdraw(self, amount: float):
         """Method to execute a withdraw"""
-        if amount > self.balance:
-            raise ValueError("Insufficiant funds")
-        if amount <= 0:
-            raise ValueError("The withdraw amount must be positive")
         if not isinstance(amount, (float, int)):
             raise ValueError("The withdraw amount must be a number")
+        if amount > self.balance:
+            raise ValueError("Insuficient funds")
+        if amount <= 0:
+            raise ValueError("The withdraw amount must be positive")
+        
         self.balance -= amount
 
     def __repr__(self) -> str:
@@ -51,7 +52,7 @@ class BankAccount:
 
     def display_balance(self) -> str:
         """print a bank account"""
-        return f"The balance is ${self.balance}"
+        return f"The balance is ${self.balance:.2f}"
 
 
 def main():
