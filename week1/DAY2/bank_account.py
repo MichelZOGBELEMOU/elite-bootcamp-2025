@@ -32,7 +32,7 @@ class BankAccount:
             raise ValueError("The amount must be a number")
         if amount <= 0:
             raise ValueError("The amount must be positive.")
-        
+
         self.balance += amount
 
     def withdraw(self, amount: float):
@@ -43,7 +43,7 @@ class BankAccount:
             raise ValueError("Insuficient funds")
         if amount <= 0:
             raise ValueError("The withdraw amount must be positive")
-        
+
         self.balance -= amount
 
     def __repr__(self) -> str:
