@@ -1,0 +1,6 @@
+[2025-10-26 03:36:58] INFO - ======Sysinfo execution started======
+[2025-10-26 03:36:58] INFO - Timestamp: '2025-10-26 03:36:58'
+[2025-10-26 03:36:58] INFO - Command executed: {'cpu': False, 'mem': False, 'disk': False, 'all': True}
+[2025-10-26 03:36:59] INFO - System info: CPU USAGE: 2.4 % | Memory Usage: 59.8% | Disk Usage: 46.3% | Version v1
+[2025-10-26 03:36:59] INFO - Sysinfo executed successfully.
+
